@@ -1,0 +1,21 @@
+.title {
+    top: 10%;
+    left: 60px;
+    position: relative;
+    width: 500px;
+    height: 50px;
+    font-size: 90px;
+    animation: titlek 1.3s ease-in-out forwards; /* Добавлено свойство анимации и animation-fill-mode */
+}
+
+@keyframes titlek {
+    0% {
+        top: 10%;
+        opacity: 0;
+    }
+    100% {
+        top: 30%;
+        opacity: 1;
+    }
+}
+/* --------------------------- */
